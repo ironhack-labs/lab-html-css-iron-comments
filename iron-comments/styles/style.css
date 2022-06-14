@@ -26,7 +26,10 @@ body {
 
 .formSection textarea {
     height: 140px;
-    text-decoration: wavy;
+}
+
+.checkbox {
+    font-style: oblique;
 }
 
 .btn {
