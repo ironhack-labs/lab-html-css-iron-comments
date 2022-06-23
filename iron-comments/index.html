@@ -4,16 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title> Iron Comments </title>
-    
+    <title> Iron Comments </title> 
     <link rel="stylesheet" type="text/css" href="./styles/style.css">
 </head>
 <body>
-
-    <form id="form-container">
-        Name: Email: Comment: Receive email updates? Submit
+    <form method="POST" id="form-container">
+        <fieldset>
+            <label for="inputName">Name:</label>
+            <input type="text" id="inputName" name="name" required>
+            <label for="inputEmail">Email:</label>
+            <input type="email" id="inputEmail" name="email" required>
+            <label for="areaComment">Comment:</label>
+            <textarea name="comment" id="areaComment" cols="22" rows="10"></textarea>
+            <label for="checkUpdate">Recieve email updates?</label>
+            <input type="checkbox" name="update" id="checkUpdate">
+            <input class="btn-submit" type="submit" value="Submit">
+        </fieldset>
     </form>
-
 </body>
 </html>

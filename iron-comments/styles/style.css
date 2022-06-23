@@ -1,11 +1,83 @@
-body {
-    padding: 0;
-    margin: 0;
-    padding-top: 100px;
-    width: 100vw;    
 
+:root {
+    --Dark-Blue: rgb(25, 33, 41);
+    --Light-Blue: rgb(67, 163, 230);
+    --Text: rgb(255,255,255);
 }
 
-#form-container {
-    margin: auto;
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    height: 100%;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: var(--Dark-Blue);
+    color: var(--Text);
+    position: relative;
+}
+
+form{
+    min-width: 250px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    border: 2px solid var(--Light-Blue);
+    box-sizing: border-box;
+    height: 379px;
+}
+
+fieldset{
+    padding: 10px 42px 11px 19px;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+input[type="submit"]{
+    width: auto;
+    padding: 5px;
+    border-radius: 20px;
+    color:inherit;
+    background: var(--Light-Blue);
+    border: 0;
+}
+
+label, input{
+    color: inherit;
+    display: block;
+    margin: 3px 0px;
+    font-weight: 600;
+    padding: 3px 16px 3px 5px;
+    max-width: 160px;
+    
+}
+label{
+    padding-left: 0;
+}
+
+
+#form-container label[for^="check"], input[type="checkbox"]{
+    display: inline-block;
+    font-style: italic;
+    width: auto;
+    vertical-align: middle;
+    font-size: 0.86em;
+    padding-right: 6px;
+}
+
+input:not(.btn-submit), textarea{
+    border: 1px solid var(--Light-Blue);
+    color:var(--Dark-Blue);
+    border-radius: 3px;
+}
+
+textarea{
+    display: block;
+}
+
+input:focus, textarea:focus{
+    background: var(--Dark-Blue);
+    border: 1px solid var(--Text);
+    color:inherit;
 }
