@@ -3,9 +3,19 @@ body {
     margin: 0;
     padding-top: 100px;
     width: 100vw;    
-
+    background-color: black;
+    color: white;
 }
 
 #form-container {
     margin: auto;
+    border: 1px solid #0078d7;
+    width: 300px;
+    padding: 20px;
+}
+
+#btn {
+    border-radius: 16px;
+    background-color: lightblue;
+    color: white;
 }
