@@ -17,6 +17,7 @@ body {
 
 #name, #email, #comment {
     border: 1px solid rgb(67, 163, 230);
+    margin: 5px 0 5px 0;
 }
 
 .italic {
@@ -31,4 +32,5 @@ body {
     border-radius: 0.75rem;
     border: none;
     padding: 0.25rem;
+    margin-top: 5px;
 }
