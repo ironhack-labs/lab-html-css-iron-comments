@@ -2,10 +2,35 @@ body {
     padding: 0;
     margin: 0;
     padding-top: 100px;
-    width: 100vw;    
-
+    width: 100vw;
+    background-color: rgb(25, 33, 41);
+    font-size: 18px;
+    line-height: 1.4em;
 }
 
 #form-container {
     margin: auto;
+    background-color: rgb(25, 33, 41);
+    color: white;
+    border: 2px solid rgb(67, 163, 230);
+    border-radius: 3px;
+    width: 250px;
+    padding: 40px;
+}
+
+#name, #email, #textarea {
+    width: 200px;
+}
+
+#updates {
+    font-style: italic;
+}
+
+.submit {
+    color: white;
+    background-color: rgb(67, 163, 230);
+    border-radius: 10px;
+    padding: 5px;
+    border: 0px;
+    font-size: 14px;
 }
