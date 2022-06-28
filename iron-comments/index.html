@@ -12,7 +12,21 @@
 <body>
 
     <form id="form-container">
-        Name: Email: Comment: Receive email updates? Submit
+        <form action="/some-url" method="post">
+            <h3>Name:</h3>
+            <label for="name"></label>
+            <input type="text" name="name" id="name" size="25"><br>
+            <h3>Email:</h3>
+            <label for="email"></label>
+            <input type="email" name="email" id="email" size="25"><br>
+            <h3>Comment:</h3>
+            <label for="comment"></label>
+            <textarea type="text" name="comment" id="comment" size="25" style="height: 150px;"></textarea><br>
+
+            <h4>Recieve email updates?</h4><input type="checkbox" name="email-updates" value="email-updates"/> <br>
+
+            <button type="submit">Submit</button>
+          </form>
     </form>
 
 </body>
