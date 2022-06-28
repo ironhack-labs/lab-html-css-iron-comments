@@ -1,11 +1,38 @@
+*{
+    font-family:serif, Cambria, Cochin, Georgia, Times, 'Times New Roman';
+    font-weight: 600;
+    color: white;
+    line-height: 1.5;
+}   
+
 body {
     padding: 0;
     margin: 0;
     padding-top: 100px;
     width: 100vw;    
-
+    background-color: rgb(25, 33, 41);
 }
 
 #form-container {
+    padding: 20px;
+    box-sizing: border-box;
     margin: auto;
+    width: 250px;
+    height: 440px;
+    background-color: rgb(25, 33, 41);
+    border: 2px solid;
+    border-color:rgb(67, 163, 230);
 }
+
+#updates{
+    font-style:italic;
+}
+
+#submit{
+    background-color: rgb(67, 163, 230);
+    border-color: rgb(25, 33, 41);
+    border:0 ;
+    border-radius: 20%;
+    font-weight: 100;
+}
+
