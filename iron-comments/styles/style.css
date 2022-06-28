@@ -1,4 +1,5 @@
 body {
+    font-family: 'Times New Roman', serif;
     padding: 0;
     margin: 0;
     padding-top: 100px;
@@ -8,14 +9,17 @@ body {
 }
 
 #form-container {
+    position:relative;
     margin: auto;
     border: 1px solid rgb(67, 163, 230);
     width: 208px;
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items:flex-start;
+    /* Barely noticeable
+    height: 360px; */
 }
 
 #email, #name {
@@ -27,8 +31,20 @@ body {
     border-radius: 16px;
     background-color: rgb(67, 163, 230);
     color: rgb(255, 255, 255);
-    width: 30%;
-    padding: 4px;
+    width: 27%;
+    padding: 6px 1px;
     border: none;
 }
 
+label {
+    font-weight: 600;
+}
+
+div {
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+}
