@@ -5,12 +5,29 @@ body {
     padding-top: 100px;
     width: 100vw;   
     color: rgb(255, 255, 255); 
+    
+    font-weight: bold;
 
 }
 
 #form-container {
     margin: auto;
-    width: 250px;
+    width: 223px;
+    border: 1px solid rgb(67, 163, 230);
+    padding: 25px 0 25px 25px
+
+}
+button {
+    background-color: rgb(67, 163, 230);
+    color:rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 5px 8px;
+    font-size: 0.8em;
+    border: none;
+    
+}
+input, #comment {
+    margin: 1px 0;
     border: 1px solid rgb(67, 163, 230);
 
 }
