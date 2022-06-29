@@ -5,14 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title> Iron Comments </title>
+    <title> Iron Comments by Maria Cassandra </title>
     
     <link rel="stylesheet" type="text/css" href="./styles/style.css">
 </head>
 <body>
 
-    <form id="form-container">
-        Name: Email: Comment: Receive email updates? Submit
+    <form action="/some-url" method="post" id="form-container">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name"><br>
+        <label for="email">Email: </label>
+        <input type="email" id="email">
+        <label for="comment">Comment:</label>
+        <textarea id="comment" name="comment" rows="10" cols="21"></textarea>
+        <p class="italic">Receive email updates?
+        <input type="checkbox" name="updates" value="updates"/></p>
+        <button type="submit" class="submit-btn">Submit</button>
     </form>
 
 </body>
