@@ -1,11 +1,41 @@
 body {
-    padding: 0;
-    margin: 0;
-    padding-top: 100px;
-    width: 100vw;    
+    background-color: rgb(25, 33, 41);
+    font-family: Sans-serif;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
 
+div {
+    border: 1px rgb(67, 163, 230) solid;
+    width: 250px;
+    box-sizing: border-box;
+    padding: 30px 40px 15px 15px;
+    margin-left: 40%;
+    margin-top: 15%;
 }
 
 #form-container {
-    margin: auto;
+    font-weight: bold;
+}
+
+.update {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.container {
+    border: 1px rgb(67, 163, 230) solid;
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+
+.submit {
+    border: 1px rgb(67, 163, 230) solid;
+    background-color: rgb(67, 163, 230);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: lighter;
 }
