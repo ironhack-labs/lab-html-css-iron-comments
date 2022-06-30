@@ -1,11 +1,65 @@
-body {
-    padding: 0;
+:root {
+    --Dark-Blue: rgb(25, 33, 41);
+    --Light-Blue: rgb(67, 163, 230);
+    --Text: rgb(255,255,255);
+    font-size: 19px;
     margin: 0;
-    padding-top: 100px;
-    width: 100vw;    
-
+    padding: 0;
 }
 
-#form-container {
-    margin: auto;
+body {
+    background: var(--Dark-Blue);
+    color: var(--Text);
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+form{
+    width: 250px;
+    height: 400px;
+    left: 50%;
+    border: 2px solid var(--Light-Blue);
+    border-radius: 3px;
+    box-sizing: border-box;
+    position: absolute;
+    transform: translate(-50%, 50%);
+}
+
+fieldset{
+    padding: 20px;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#form-container label[for^="check"], input[type="checkbox"]{
+    display: inline-block;
+    font-style: italic;
+    font-size: 16px;
+    padding-right: 6px;
+}
+
+label, input{
+    display: block;
+    margin-top: 2px;
+    padding: 0px 45px 5px 0px;
+    max-width: 160px;
+}
+
+input[type="submit"]{
+    background: var(--Light-Blue);
+    font-size: 15px;
+    color:inherit;
+    width: auto;
+    padding: 6px;
+    border-radius: 10px;
+    border: none;
+}
+
+input:not(.btn), textarea{
+    color:var(--Dark-Blue);
+    border: 1px solid var(--Light-Blue);
+    border-radius: 2px;
 }
