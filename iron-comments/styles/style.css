@@ -3,9 +3,26 @@ body {
     margin: 0;
     padding-top: 100px;
     width: 100vw;    
-
+    background-color: rgb(25, 33, 41);
 }
 
 #form-container {
     margin: auto;
+    width: 250px;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(67, 163, 230);
+    border-radius: 1%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+input, textarea{
+    border: 1px solid rgb(67, 163, 230);
+    border-radius: 1%;
+}
+.button{
+    color: rgb(255, 255, 255);
+    background-color: rgb(67, 163, 230);
+    border: 0px;
+    border-radius: 30%;
 }
