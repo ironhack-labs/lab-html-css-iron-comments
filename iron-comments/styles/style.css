@@ -3,9 +3,57 @@ body {
     margin: 0;
     padding-top: 100px;
     width: 100vw;    
-
+    background-color: rgb(25, 33, 41);
+    color: white;
 }
 
 #form-container {
     margin: auto;
+    max-width: 250px;
+    width: 100%;
+    border: 1px solid rgb(67, 163, 230);
+    border-radius: 2px;
+    padding: 25px 50px 20px 20px;
+    box-sizing: border-box;
 }
+
+#form-container > * {
+    margin: 3px 0;
+}
+
+#form-container input {
+    width: 100%;
+}
+
+#comment {
+    width: 100%;
+    height: 60px;
+}
+
+#form-container #email-updates {
+    float: right;
+    width: auto;
+}
+
+#form-container button {
+    background-color: rgb(67, 163, 230);
+    border: none;
+    border-radius: 12px;
+    color: white;
+    height: 27px;
+}
+
+
+/* Helpers */
+
+.italic-text {
+    font-style: italic;
+}
+
+
+/*
+__Colors__
+    Dark Blue:  rgb(25, 33, 41)
+    Light Blue: rgb(67, 163, 230)
+    Text:       rgb(255,255,255)
+*/
