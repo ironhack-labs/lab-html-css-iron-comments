@@ -2,10 +2,27 @@ body {
     padding: 0;
     margin: 0;
     padding-top: 100px;
-    width: 100vw;    
-
+    width: 100vw;  
+    background-color: rgb(25, 33, 41);  
+    
 }
 
 #form-container {
     margin: auto;
+    border: 2px solid rgb(67, 163, 230);
+   
+    color: rgb(255, 255, 255);
+    width: 250px;
+
+}
+
+#rqst {
+    font-style: italic ;
+}
+
+#btn {
+    border-radius: 20px;
+    padding: 8px 5px;
+    width: 60px;
+    
 }
