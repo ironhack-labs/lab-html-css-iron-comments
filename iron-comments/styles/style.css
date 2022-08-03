@@ -4,16 +4,21 @@ body {
     padding-top: 100px;
     width: 100vw;  
     background-color: rgb(25, 33, 41);  
-    
+    border: 0;
+    /* font-family:'Verdana', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+fieldset{
+    padding: 20px 50px 20px 20px;
 }
 
 #form-container {
     margin: auto;
-    border: 2px solid rgb(67, 163, 230);
-   
+    box-sizing: content-box;
     color: rgb(255, 255, 255);
     width: 250px;
-
+    padding: 30px;
+    border-color: rgb(67, 163, 230) ;
 }
 
 #rqst {
@@ -21,8 +26,25 @@ body {
 }
 
 #btn {
-    border-radius: 20px;
+    border-radius: 12px;
     padding: 8px 5px;
     width: 60px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(67, 163, 230);
+    text-decoration: none;
+    box-shadow: none;
+    border: none;
+    font-size: 0.85em;
+    line-height: 12px;
+}
+
+#frame {
+    border: 2px solid rgb(67, 163, 230);
+}
+
+.formText{
+    line-height: 1.8em;
+    font-weight: bold;
+    font-size: 14px;
     
 }
