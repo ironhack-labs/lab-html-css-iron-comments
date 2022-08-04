@@ -2,10 +2,50 @@ body {
     padding: 0;
     margin: 0;
     padding-top: 100px;
-    width: 100vw;    
+    width: 100vw;  
+    background-color: rgb(25, 33, 41); 
+    font-size: 15px; 
 
 }
 
 #form-container {
+    box-sizing: border-box;
     margin: auto;
+    border: 2px solid rgb(67, 163, 230);
+    width: 250px;
+    color: white;
+    font-weight: bold;
+    padding: 20px ;
+    font-size: 1.2em;
+       
+}
+#name{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+#email{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+#comment{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-right:7px;
+}
+#checkbox{
+    font-style: italic;
+    font-weight: normal;
+    font-size: 0.95em;
+    margin-right: 13px;
+}
+
+button{
+    background-color: rgb(67, 163, 230);
+    border-radius: 10px;
+    margin: 5px;
+    color:white;
+    border-style: none;
+    padding: 5px;
+    font-weight:100;
+    font-size: 0.9rem;
 }
