@@ -2,10 +2,80 @@ body {
     padding: 0;
     margin: 0;
     padding-top: 100px;
-    width: 100vw;    
+    width: 100vw; 
+    background-color: rgb(25, 33, 41); 
+    font-family: Arial;
+    height: 200vh;  
+    
 
 }
-
-#form-container {
-    margin: auto;
+.comment-box{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    border: 5px solid rgb(67, 163, 230);
+    background: rgb(25, 33, 41);
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-left: 5px;
+    padding-bottom: 30px;
+    margin-top: 100px;
+    
 }
+
+.comment-box label{
+    color:rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 20px;
+    text-indent: 70px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+   
+}
+/*para mover las cajas de texto margin left o auto*/
+.comment-box input{
+    
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    border-radius: 1px rgb(8, 5, 2);
+    border: 2px solid rgb(67, 163, 230);
+}
+
+.comment-box textarea{
+    width: 70%;
+    height: 150px;
+    margin-left: 30px;
+    padding: 15px 20px;
+    margin-top: 15px;
+    font-family: Arial;
+    border: 2px solid rgb(67, 163, 230)
+}
+.checkbox {
+    display: flex;
+    flex-direction: row;
+}
+.checkbox label{
+    font-size: 15px;
+    font-family: Arial;
+}
+.submit button{   
+    background-color: rgb(67, 163, 230);
+    margin-left: 30px;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+

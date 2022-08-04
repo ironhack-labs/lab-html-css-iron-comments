@@ -12,8 +12,36 @@
 <body>
 
     <form id="form-container">
-        Name: Email: Comment: Receive email updates? Submit
+        <!--Name: Email: Comment: Receive email updates? Submit-->
+       <div class="comment-box">
+            <form action="#">
+                <div class="name">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" placeholder="Introduce your name">
+                </div>
+                <div class="email">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Introduce your email">
+                </div>
+                <div class="comment">
+                     <label for="comment">Comment:</label>
+                    <textarea name="comment" placeholder="Type your comment"></textarea>
+                </div> 
+                <div class="checkbox">
+                    <label for="checkbox">Receive email updates?</label>
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                </div>
+               
+                <div class="submit">
+                    <button type="submit" name="submit" id="submit">Submit</button>
+                </div>             
+                        
+            </form>
+           
+       </div>
+       
+        
     </form>
-
+    
 </body>
 </html>
