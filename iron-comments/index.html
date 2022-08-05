@@ -10,9 +10,38 @@
     <link rel="stylesheet" type="text/css" href="./styles/style.css">
 </head>
 <body>
-
     <form id="form-container">
-        Name: Email: Comment: Receive email updates? Submit
+        <fieldset class="fieldset">
+            <div>
+            <label for="User">Name:</label>
+            <input
+            id="user"
+            name="name"
+            type="text">
+            </div>
+            <div>
+            <label for="email">Email:</label>
+            <input
+            id="email"
+            name="email"
+            type="email">
+            </div>
+            <div>
+            <label for="comment">Comment:</label>
+            </div>
+            <div>
+            <textarea id="comment" name="comment" rows="10"></textarea>
+            </div>
+            <label for="updates"><i><b>Receive email updates?</i></b></label>
+            <input
+            type="checkbox">
+            </div>
+            <div>
+            <input id="button"
+            type="submit"
+            value="Submit">
+            </div>
+        </fieldset>
     </form>
 
 </body>

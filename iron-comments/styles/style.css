@@ -1,11 +1,37 @@
 body {
-    padding: 0;
-    margin: 0;
-    padding-top: 100px;
-    width: 100vw;    
-
-}
-
-#form-container {
+    color: white;
+    background-color: rgb(25, 33, 41);
+    padding: auto;
     margin: auto;
+    padding-top: 100px;
+    width: 18vw;
+    font-weight: bold;
+    text-align: left;
+    }
+    .fieldset {
+        border-color: rgb(67, 163, 230);
+        border-width: 3px;
+        border-radius: 3px;
+        padding-right: 50px;
+        padding-top: 25px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+    }
+    #user, #email, #comment {
+        border-color: rgb(67, 163, 230);
+        border-width: 1px;
+        border-radius: 2px;
+        width: 180px;
+        margin-bottom: 5px;
+    }
+#form-container {
+    margin: auto; 
+}
+#button {
+    background-color: rgb(67, 163, 230);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 3px;
+    margin-top: 5px;
 }
