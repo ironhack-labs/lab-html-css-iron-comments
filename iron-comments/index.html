@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title> Iron Comments </title>
-    
-    <link rel="stylesheet" type="text/css" href="./styles/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <title>Iron Comments</title>
+
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+  </head>
+  <body>
     <form id="form-container">
-        Name: Email: Comment: Receive email updates? Submit
+      <label class="text" for="name">Name:</label>
+      <input class="input" type="text" id="name" name="name" />
+      <label class="text" for="email">Email: </label>
+      <input class="input" type="email" id="email" />
+      <label class="text" for="comment">Comment:</label>
+      <textarea id="comment" name="comment" rows="10" cols="43"></textarea>
+      <label class="text italic" for="recieve-emails"
+        >Receive email updates?</label
+      >
+      <input
+        class="input"
+        type="checkbox"
+        name="iron-merchan"
+        value="t-shirt"
+      />
+      <br />
+      <button class="text button input" type="submit">Submit</button>
     </form>
-
-</body>
+  </body>
 </html>
