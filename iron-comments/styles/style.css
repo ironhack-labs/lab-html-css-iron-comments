@@ -20,13 +20,13 @@ body {
     align-content: center;
 }
 
-label, i {
+#form-container label, i {
     letter-spacing: 0.058rem;
     font-weight: 500;
     font-size: large;
 }
 
-input, textarea {
+#form-container input, textarea {
     color: black;
     border: 1px solid rgb(67, 163, 230);
     padding-left: 10%;
@@ -34,7 +34,7 @@ input, textarea {
 
 }
 
-button {
+#form-container button {
     font-size: medium;
     margin-top: 5px;
     padding: 5px;
@@ -43,6 +43,6 @@ button {
     border: 0ch;
 }
 
-i {
+#form-container i {
     letter-spacing: normal;
 }
