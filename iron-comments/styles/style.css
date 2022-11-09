@@ -1,11 +1,54 @@
-body {
+* {
     padding: 0;
     margin: 0;
-    padding-top: 100px;
-    width: 100vw;    
+    box-sizing: border-box;
+    --blue: rgb(67, 163, 230);
+    --dark-blue: rgb(25, 33, 42);
+    --text: rgb(255, 255, 255);
+}
 
+body {
+    padding-top: 100px;
+    width: 100vw;
+    background-color: var(--dark-blue);
+    color: var(--text);
 }
 
 #form-container {
     margin: auto;
+}
+
+.form {
+    width: 250px;
+    border: 2px solid var(--blue);
+    padding: 25px 0 20px 20px;
+}
+
+.form input[name="name"],
+input[name="email"],
+textarea {
+    width: 180px;
+    border: 1.5px solid var(--blue);
+}
+
+.form input[name="name"],
+input[name="email"] {
+    margin: 3px 0;
+}
+
+.form textarea {
+    margin-top: 3px;
+}
+
+label[for="updates"] {
+    font-style: italic;
+}
+
+.form button {
+    background-color: var(--blue);
+    color: var(--text);
+    border-radius: 10px;
+    border: none;
+    padding: 5px 6px;
+    margin: 2px 0;
 }
