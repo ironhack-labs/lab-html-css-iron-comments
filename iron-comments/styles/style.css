@@ -25,6 +25,11 @@ body {
     width: 170px;
     margin-top: 2px;
     margin-bottom: 4px;
+    
+}
+
+.form__coment{
+    resize: none;
 }
 
 .form__btn{
