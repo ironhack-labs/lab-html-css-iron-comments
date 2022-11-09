@@ -2,10 +2,38 @@ body {
     padding: 0;
     margin: 0;
     padding-top: 100px;
-    width: 100vw;    
-
+    width: 100vw;
+    background-color: rgb(25, 33, 41);
+    color: rgb(255, 255, 255);
 }
 
 #form-container {
+    width: 250px;
     margin: auto;
+    border: solid rgb(67, 163, 230) 3px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+#form-container button {
+    background-color: rgb(67, 163, 230);
+    padding: 10px 15px;
+    color: white;
+    border-radius: 35%;
+    border: 1px none black;
+}
+
+.components {
+    margin: 20px 30px 20px 20px;
+}
+
+label {
+    margin: 5px;
+}
+
+textarea {
+    max-width: fit-content;
+    min-width: fit-content;
+    max-height: 200px;
+    min-height: 100px;
 }
