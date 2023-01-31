@@ -2,10 +2,47 @@ body {
     padding: 0;
     margin: 0;
     padding-top: 100px;
-    width: 100vw;    
+    width: 100vw;
+    background-color: rgb(25, 33, 41);    
 
 }
 
 #form-container {
     margin: auto;
 }
+
+.form {
+    color: rgb(255,255,255);
+    width: 250px;
+    border: 3px solid rgb(67, 163, 230);
+    border-radius: 2%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.form label {
+    margin: 3px 0;
+    display: block;
+}
+
+.formInput {
+    width: 85%;
+}
+
+#comment {
+    height: 150px;
+}
+
+.labelUpdates {
+    font-style: italic;
+}
+
+.submitButton {
+    background-color: rgb(67, 163, 230);
+    color: rgb(255,255,255);
+    border-radius: 12px;
+    padding: 5px;
+    border: none;
+}
+
+
