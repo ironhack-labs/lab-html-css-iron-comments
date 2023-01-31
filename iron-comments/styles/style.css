@@ -2,10 +2,46 @@ body {
     padding: 0;
     margin: 0;
     padding-top: 100px;
-    width: 100vw;    
-
-}
-
-#form-container {
+    width: 100vw;
+    /*New*/
+    background-color: rgb(25,33,41);
+    color: rgb(255,255,255);
+    font-weight: bold; 
+    font-size: 0.85em;
+  }
+  
+  #form-container {
+    padding: 20px 50px 20px 20px;
+    background-color: rgb(25,33,41);
+    border: 3px solid rgb(67, 163, 230);
+    border-radius: 4px;
     margin: auto;
-}
+    width: 250px;
+    display: flex;
+    flex-direction: column; /*display: block would also redistribute elements*/
+    box-sizing: border-box; /* Total width must remain 250px*/
+    font-size: 1.2em;
+  
+  }
+  .btn {
+    width: 60px;
+    height: 28px;
+    background-color: blue;
+    border: none;
+    border-radius: 20px;
+    margin-top: 3px;
+    background-color: rgb(67, 163, 230);
+    color: rgb(255,255,255);
+    cursor: pointer;
+    
+  }
+  
+  .updates {
+    font-style: italic;
+    font-size: 0.93em; /*Trying to adjust the sample*/
+  }
+
+  /*Optional and extra*/
+  textarea {
+    resize: none;
+  }
