@@ -2,10 +2,30 @@ body {
     padding: 0;
     margin: 0;
     padding-top: 100px;
-    width: 100vw;    
-
+    width: 100vw;
+    background-color: rgb(25, 33, 41);
+    color: rgb(255,255,255);  
 }
+
 
 #form-container {
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 188px;
+    height: 320px;
+    border: 2px solid rgb(67,163,230);
+    padding: 20px 43px 20px 17px
+}
+#form-container button{
+    width: 60px;
+    background-color: rgb(67,163,230);
+    color: white;
+    border-radius: 25px;
+    padding: 5px 0px;
+}
+#checkbox{
+    display: flex;
+    justify-content: space-between;
 }
