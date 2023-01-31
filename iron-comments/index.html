@@ -9,10 +9,23 @@
     
     <link rel="stylesheet" type="text/css" href="./styles/style.css">
 </head>
+
 <body>
 
-    <form id="form-container">
-        Name: Email: Comment: Receive email updates? Submit
+    <form id="form-container" class="form">
+        <label for="name">Name:</label>
+        <input id="name" type="text" class="formInput"/>
+
+        <label for="email">Email:</label>
+        <input id="email" type="email" class="formInput" />
+
+        <label for="comment">Comment:</label>
+        <textarea id="comment" class="formInput"></textarea>
+
+        <label for="updates" class="labelUpdates">Receive email updates? <input id="updates" type="checkbox" /> </label>
+        
+        
+        <button class="submitButton">Submit</button>
     </form>
 
 </body>
