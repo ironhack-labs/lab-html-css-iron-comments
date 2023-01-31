@@ -4,16 +4,16 @@
 }
 
 body {
-
     padding-top: 100px;
     width: 100vw;
-    background-color: rgb(25, 33, 41)    
+    background-color: rgb(25, 33, 41);
 }
 
 body > div {
     border: 1px solid rgb(67, 163, 230);
     width: 250px;
     margin:auto;
+    box-sizing: border-box; 
 }
 
 #form-container {
@@ -21,18 +21,18 @@ body > div {
     padding: 25px;
 }
 
-
-
 button {
     background-color: rgb(67, 163, 230);
     color: rgb(255,255,255);
     border-radius: 10px;
     border:none;
-    padding: 4px
+    padding: 4px;
+    margin-top: 10px;
+    
 }
 
-#textBox {
-    height: 150px;
+#form-container div textarea {
+    width: 100%;
 }
 
 form div {
@@ -47,4 +47,9 @@ form div input {
 
 form div:last-of-type input {
     width: auto;
+    float: right;
+}
+
+form div:last-of-type label {
+    font-style: italic;
 }
