@@ -1,11 +1,52 @@
+/*
+    Colors
+ 
+    Dark Blue: rgb(25, 33, 41)
+    Light Blue:  rgb(67, 163, 230)
+    Text: rgb(255,255,255)
+
+    Form width should be 250px - remember to think 
+    about box-sizing when adding padding and borders
+*/
 body {
     padding: 0;
     margin: 0;
     padding-top: 100px;
     width: 100vw;    
-
+    background-color: rgb(25, 33, 41);
 }
 
 #form-container {
     margin: auto;
+    width: 250px;
+    box-sizing: border-box;
+    color: rgb(255,255,255);
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(67, 163, 230);
+    padding: 25px;
+    font-weight: bold;
+}
+#form-container label{
+    font-size: 1.2em;
+}
+
+#form-container .agrupacion {
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+#form-container .agrupacion input{
+    width: 100%;
+}
+#form-container .agrupacion textarea{
+    width: 100%;
+}
+
+button{
+    margin-top: 8px;
+    background-color:  rgb(67, 163, 230);
+    color: rgb(255,255,255);
+    border-color: rgb(67, 163, 230);
+    border-radius: 13px;
+    padding: 5px;
 }
