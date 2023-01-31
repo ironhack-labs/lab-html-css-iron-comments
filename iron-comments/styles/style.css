@@ -28,7 +28,7 @@ body {
     font-weight: bold;
 }
 #form-container label{
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 #form-container .agrupacion {
@@ -37,9 +37,17 @@ body {
 }
 #form-container .agrupacion input{
     width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(67, 163, 230);
+    border-radius: 3px;
 }
 #form-container .agrupacion textarea{
     width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(67, 163, 230);
+    border-radius: 3px;
 }
 
 button{
