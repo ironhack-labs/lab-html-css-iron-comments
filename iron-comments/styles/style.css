@@ -1,14 +1,53 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
 
 body {
+    font-family: 'Roboto-Condensed';
+    font-weight: bold;
     padding: 0;
-    margin: 0px 157;
+    margin: 50px 50%;
     padding-top: 100px;
     width: 100vw;    
-    background-color: hsl(0, 0% 90%);
+    background-color: rgb(25, 33, 41);
+}
 
+.div{
+    border: 5px solid rgb(255, 255, 255);  
+    margin: 500px;
+        
+}
+
+.table {
+    border: 10px;
+    border-color: rgb(255, 255, 255);
 }
 
 #form-container {
-    margin: auto;
+    width: 190px;
+    height: 350px;
+    margin: 15px 380px ;
+    padding: 8px 10px 5px 15px;
+    color: rgb(255, 255, 255);
+    border: 3px solid rgb(67, 163, 230);
+    border-radius: 5px;
+    
+}
+.email-dates label{
+  padding-bottom:2px; 
+  
+
+}
+.email-dates input{
+    margin-bottom: 5px;
+    padding-right: 30px;
+  
+
+}
+.button{
+    border-radius: 10px; 
+    margin-top: 5px;
+    width: 60%;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(67, 163, 230);
+    margin-color: 
 }
