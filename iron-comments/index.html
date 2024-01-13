@@ -1,19 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title> Iron Comments </title>
-    
+
     <link rel="stylesheet" type="text/css" href="./styles/style.css">
 </head>
+
 <body>
 
-    <form id="form-container">
-        Name: Email: Comment: Receive email updates? Submit
+    <form id="form-container" action="#" method="post">
+        <!-- Name: Email: Comment: Receive email updates? Submit -->
+        <fieldset>
+            <label for="name" class="name">Name:</label> <br>
+            <input id="name" type="text" size="23" class="name">
+        </fieldset>
+        <fieldset>
+            <label for="email">Email:</label> <br>
+            <input id="email" type="email" size="23">
+        </fieldset>
+        <fieldset class="comment-field">
+            <label for="comment">Comment:</label> <br>
+            <textarea id="comment" type="text" cols="21" rows="12"></textarea>
+        </fieldset>
+        <fieldset class="email-updates">
+            <label for="updates" class="email-updates-lable"><i>Receive email updates?</i></label>
+            <input type="checkbox" name="emailUpdates" id="updates">
+        </fieldset>
+        <input type="submit" class="submit-input">
     </form>
 
 </body>
+
 </html>
