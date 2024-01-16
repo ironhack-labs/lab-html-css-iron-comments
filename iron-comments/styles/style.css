@@ -1,11 +1,44 @@
+/*General body Style*/
 body {
     padding: 0;
     margin: 0;
     padding-top: 100px;
-    width: 100vw;    
-
+    width: 100vw;  
+    background-color: rgb(25, 33, 41);  
 }
 
+/*General Form Style*/
 #form-container {
     margin: auto;
+    width: 250px;
+    border: solid rgb(67, 163, 230);
+    padding: 30px 30px 25px 25px;
+}
+/*Label Text Style*/
+#form-container label{
+    color: rgb(255,255,255);
+    font-size: large;
+    font-weight: bold;
+}
+/*Margin and border Input Style*/
+.space{
+    border-inline-color: rgb(67, 163, 230);
+    width: 85%;
+    height: 20px;
+    margin: 5px 0;
+}
+/*Margin, border & size Textarea Style*/
+#form-container textarea{
+    border-inline-color: rgb(67, 163, 230);
+    width: 85%;
+    height: 200px;
+    margin: 5px 0;
+}
+/*Button Style*/
+#form-container button{
+    background-color:rgb(67, 163, 230);
+    color:rgb(255,255,255);
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 5px;
 }

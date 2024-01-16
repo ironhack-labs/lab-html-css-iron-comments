@@ -1,28 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title> Iron Comments </title>
-    
+
     <link rel="stylesheet" type="text/css" href="./styles/style.css">
 </head>
+
 <body>
-
+    <!--Fomr Structure-->
     <form id="form-container">
-        <label for="Name">Name</label><br>
-            <input type="text" name="Name" id="Name" placeholder="Write your Name"><br> 
-        <label for="email">Email</label><br>
-            <input type="email" name="email" id="email" placeholder="Write your email"><br> 
+        <!--Name-->
+        <label for="Name">Name:</label><br>
+        <input type="text" name="Name" id="Name" placeholder="Write your Name" class="space"><br>
+        <!--Email-->
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" id="email" placeholder="Write your email" class="space"><br>
+        <!--Comment-->
         <label for="comment">Comment:</label><br>
-            <textarea id="comment" name="comment" rows="4" cols="33"></textarea><br>
+        <textarea id="comment" name="comment" rows="5" cols="20" placeholder="Write your comments here"></textarea><br>
+        <!--Checkbox-->
         <label for="accept-email-updates"><i>Receive email updates?<i></label>
-            <input type="checkbox" name="accept-email-updates" value="Receive email updates?"/><br>  
+        <input type="checkbox" name="accept-email-updates" /><br>
+        <!--Button-->
         <button id="button" type="button">Submit</button>
-
     </form>
-
 </body>
+
 </html>
