@@ -8,11 +8,36 @@
     <title> Iron Comments </title>
     
     <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100;0,300;0,400;0,700;1,700&family=Roboto+Condensed:wght@700&family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <form id="form-container">
-        Name: Email: Comment: Receive email updates? Submit
+
+        <label for="name" class="texto">
+            Name: <br>
+            <input type="text" id="name" name="name">
+        </label><br>
+         
+        <label for="email" class="texto">
+            Email: <br>
+            <input type="email" id="email" name="email">
+        </label><br>
+        
+        <label for="comment" class="texto">
+            Comment: <br>
+            <textarea name="comment" id="comment" cols="20" rows="10"></textarea><br>
+        </label>
+        
+        <label for="check" class="cursive" class="texto">
+            Receive email updates?
+            <input type="checkbox" id="check" name="check"><br>
+        </label> 
+        
+        
+        <input type="submit" value="Submit" class="button">
     </form>
 
 </body>
