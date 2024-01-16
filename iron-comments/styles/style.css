@@ -17,12 +17,6 @@ body {
     padding: 20px 20px;
 }
 
-/* Colors
-dark-blue rgb(25, 33, 41);
-light-blue rgb(67, 163, 230);
-text rgb(255,255,255);
-} */
-
 #button {
     color: rgb(255,255,255);
     background-color: rgb(67, 163, 230);
