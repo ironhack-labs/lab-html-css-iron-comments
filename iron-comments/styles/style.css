@@ -3,9 +3,44 @@ body {
     margin: 0;
     padding-top: 100px;
     width: 100vw;    
-
+    background-color: #192129;
 }
 
 #form-container {
-    margin: auto;
+    margin: 20px auto;
+    border: 2px solid #3D8FC9;
+    max-width: 250px;
+    padding: 20px;
 }
+
+#form-container label {
+    font-weight: bold;
+    color: #FFF;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#form-container input,
+#form-container textarea {
+    width: 98%;
+    margin-bottom: 15px;
+}
+
+#form-container #checkbox {
+    width: auto;
+}
+
+#form-container p {
+    display: inline-block;
+    font-style: italic;
+    color: #FFF;
+    margin-right: 5px;
+}
+
+button {
+    background-color: #3D8FC9;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+}
+
