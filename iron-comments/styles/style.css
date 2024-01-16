@@ -5,7 +5,6 @@ body {
     width: 100vw;
     background-color: rgb(25, 33, 41);
     color: rgb(255,255,255);
-
 }
 
 #form-container {
@@ -23,6 +22,7 @@ body {
     background-color: rgb(67, 163, 230);
     border: none;
     border-radius: 6px;
+    height: 24px;
 }
 
 .text-input {
