@@ -11,6 +11,9 @@ body {
 #form-container {
     margin: auto;
     width: 250px;
+    border-color: rgb(67, 163, 230);
+    border-style: solid;
+    border-width: 2px;
 }
 
 /* Colors
