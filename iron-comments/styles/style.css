@@ -1,11 +1,63 @@
+:root {
+    --Dark-Blue: rgb(25, 33, 41);
+    --Light-Blue:  rgb(67, 163, 230);
+    --Text: rgb(255,255,255);
+  }
+
 body {
     padding: 0;
     margin: 0;
     padding-top: 100px;
     width: 100vw;    
-
+    background-color: var(--Dark-Blue);
+    color:  var(--Text);
+    text-decoration: solid;
 }
 
 #form-container {
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-bottom: 1em;
     margin: auto;
+    width: 250px;
+    border-color: var(--Light-Blue);
+    border-style: solid;
+}
+
+#from-container input{
+    float: left;
+}
+
+#femail,
+#fname{
+    width: 75%;
+    margin-bottom: 1%;
+}
+
+
+label {
+    width: 75%;
+    margin-bottom: 1%;
+}
+
+.text-area {
+    width: 75%;
+    max-width: 95%;
+    height:175px;
+    margin-bottom: 1%;
+}
+
+label[for=fupdates] {
+    font-style: italic;
+    width: auto;
+}
+
+button {
+    margin-top: 2%;
+    background-color: var(--Light-Blue);
+    color: var(--Text);
+    padding: 6px 6px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
 }
