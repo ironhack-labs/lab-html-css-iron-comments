@@ -1,11 +1,69 @@
 body {
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     padding-top: 100px;
-    width: 100vw;    
+    width: 100vw;
+    background-color: rgb(25, 33, 41);
+
 
 }
 
 #form-container {
-    margin: auto;
+    margin: 0 auto;
+    max-width: 250px;
+    color: white;
+    font-family: Georgia;
+    border: rgb(67, 163, 230) solid 2px;
+    border-radius: 4px;
+    padding: 20px;
+
+#form-container  {
+    margin: 0 auto;
+}
+
+
+
+
+
+}
+
+button {
+    color: white;
+    background-color: rgb(67, 163, 230);
+    margin-top: 15px;
+    border-radius: 15px;
+    font-family: Georgia;
+    padding: 8px;
+    margin-top: -15px;
+}
+
+.checkbox {
+    float: right;
+
+    margin-right: 70px;
+
+}
+
+p {
+    font-family: Georgia;
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+label {
+    margin-top: .33em;
+    display: block;
+}
+
+input {
+    border-color: rgb(67, 163, 230);
+    margin-top: 5px;
+    border-radius: 3px;
+}
+
+textarea {
+    margin-top: 5px;
+    border-color: rgb(67, 163, 230);
+
 }
