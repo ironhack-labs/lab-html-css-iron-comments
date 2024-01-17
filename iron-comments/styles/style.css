@@ -3,9 +3,61 @@ body {
     margin: 0;
     padding-top: 100px;
     width: 100vw;    
+    background-color: rgb(25, 33, 41);
 
 }
 
 #form-container {
-    margin: auto;
+    margin: 0 auto;
+    width: 250px;
+    padding: 30px 65px 25px 25px;
+    border: 3px solid rgb(67, 163, 230);
+    border-radius: 1%;
+
+}
+
+label {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+input[type="text"], input[type="email"] {
+    border: 2px solid rgb(67, 163, 230);
+    border-radius: 5%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    height: 25px;
+    width: 238px
+}
+
+textarea {
+    border: 2px solid rgb(67, 163, 230);
+    border-radius: 1%;
+    margin-top: 4px;
+
+}
+
+input[type="checkbox"]
+{
+    height: 16px;
+    width: 16px;
+}
+
+button {
+    border-radius: 12px;
+    border: none;
+    color: white;
+    background-color: rgb(67, 163, 230);
+    height: 35px;
+    width: 70px;
+    text-align: center;
+    color: white;
+    font-family: 'Calibri';
+    letter-spacing: -1px;
+    font-size: 22px;
+    font-weight: 100;
+    margin-top: 4px;
+
 }
