@@ -3,9 +3,48 @@ body {
     margin: 0;
     padding-top: 100px;
     width: 100vw;    
+    background-color: rgb(25, 33, 41);;
+   
 
 }
 
 #form-container {
     margin: auto;
+    
+}
+
+.div {
+    background-color: rgb(25, 33, 41);
+    box-sizing: content-box;
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid rgb(67, 163, 230);
+    width: 240px;
+    margin: auto;
+}
+
+div * {
+    color: white;
+    font-weight: bold;
+}
+
+#comment {
+    height: 160px; 
+    width: 179px;
+}
+
+#email-updates {
+    font-style: italic;
+}
+
+
+.button {
+    color: white;
+    background-color:rgb(67, 163, 230);
+    font-weight: 300;
+    border-radius: 8px;
+    border: 0;
+    padding: 5px 5px;
 }
