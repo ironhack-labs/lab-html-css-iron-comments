@@ -11,9 +11,29 @@
 </head>
 <body>
 
+  <section id="section">
     <form id="form-container">
-        Name: Email: Comment: Receive email updates? Submit
-    </form>
 
+        <label class="text" for="name">
+            Name:<br>
+            <input type="text" name="name" id="name" >
+        </label>
+        <br>
+        <label class="text" for="email">
+            Email:<br>
+            <input type="email" name="email" id="email" >
+        </label>
+        <br>
+        <label class="text" for="comment">
+            Comment:<br>
+            <textarea name="comment" id="comment" cols="21" rows="10" ></textarea>
+        </label>
+        <p class="text"><i>Recieve email updates?</i>
+            <input type="checkbox" name="emailUpdates" id="emailUpdates">
+        </p>
+        <button type="summit" value="summit" class="btn">Submit</button>
+
+    </form>
+</section>
 </body>
 </html>
