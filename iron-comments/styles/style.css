@@ -1,11 +1,48 @@
+/*
+Colors
+ 
+Dark Blue: rgb(25, 33, 41)
+Light Blue:  rgb(67, 163, 230)
+Text: rgb(255,255,255)
+*/
+
 body {
     padding: 0;
     margin: 0;
     padding-top: 100px;
-    width: 100vw;    
+    width: 100vw; 
+    background-color: rgb(25, 33, 41);
+
 
 }
 
 #form-container {
     margin: auto;
+    background-color: rgb(25, 33, 41);
+}
+
+.form {
+    border: 2px solid rgb(67, 163, 230);
+    width: 250px;
+    padding: 1.5rem 1.5rem ;
+    box-sizing: border-box;
+    color: white;
+    line-height: 1.5rem;
+}
+
+.form label {
+    font-weight: 700;
+}
+
+.input {
+    border: 1px solid rgb(67, 163, 230);
+
+}
+
+.button {
+    background-color: rgb(67, 163, 230);
+    color: white;
+    border-radius: 15px;
+    height: 2rem;
+    
 }
