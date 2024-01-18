@@ -1,11 +1,43 @@
 body {
     padding: 0;
     margin: 0;
-    padding-top: 100px;
-    width: 100vw;    
-
+    width: 100vw;
+    background-color: rgb(25, 33, 41);
+    color: rgb(255, 255, 255);
+    font-family: "Noto, Serif";
+       
 }
 
 #form-container {
-    margin: auto;
+    margin: 40px;
+    padding: 20px 0px 20px 20px;
+    width: 250px;
+    border: 2px solid;
+    border-color: rgb(67, 163, 230);
+    border-radius: 3px;
+}
+.texto {
+    font-weight: 600;
+    border-color: rgb(67, 163, 230);
+
+}
+.Texto input {
+width: 215px;
+}
+
+.cursive {
+    font-weight: 500px;
+    font-style: italic;
+}
+
+.button {
+background-color: rgb(67, 163, 230);
+border: none;
+color: rgb(255, 255, 255);
+border-radius: 10px;
+font-weight: lighter;
+padding: 4px 8px;
+font-weight: 100;
+margin-top: 5px;
+
 }
