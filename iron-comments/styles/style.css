@@ -1,11 +1,50 @@
+:root {
+    --dark-blue: rgb(25,33,41);
+    --light-blue: rgb(67, 162, 230);
+}
+
 body {
+    background-color: var(--dark-blue);
     padding: 0;
     margin: 0;
     padding-top: 100px;
     width: 100vw;    
-
 }
 
 #form-container {
+    color: white;
+    font-weight:550;
+    box-sizing: border-box;
+    border: 2px solid var(--light-blue);
+    padding: 20px;
+    width: 250px;
     margin: auto;
+}
+
+#form-container input{
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+#name, #email {
+    width: 176px;
+}
+
+#form-container input, textarea{
+    border: 1px solid var(--light-blue);
+    border-radius: 2px;
+}
+
+#form-container button, input, textarea {
+    border-color: var(--light-blue);
+    margin-top: 5px;
+}
+
+#form-container button {
+    color: white;
+    padding: 4px;
+    background-color: var(--light-blue);
+    border-radius: .6em;
+    text-align: center;
+    border: none;
 }
